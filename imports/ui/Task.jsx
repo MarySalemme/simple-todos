@@ -1,6 +1,6 @@
 import React, { Component, PropTypes } from 'react';
 
-export deafult class Task extends Component {
+export default class Task extends Component {
   render() {
     return (
       <li>{this.props.task.text}</li>
